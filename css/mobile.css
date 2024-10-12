@@ -1,0 +1,72 @@
+#navbar {
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;/*taşmaları önler*/
+    height: 80px;
+}
+#training .items {
+   
+    flex-direction: column;
+    
+}
+#training .items .item {
+    width: 100%;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+.courses .course {
+    flex-direction: column;
+}
+#contact .contact-form {
+    max-width: 250px;
+}
+.row {
+    display: block;
+}
+.description {
+    font-size: 0.75rem;
+}
+.home-part-1 {
+    display: flex;
+    width: 100%;
+}
+.home-part-2 {
+    width: 100%;
+}
+#home .home-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home .home-container .left-side {
+    width: 90%;
+}
+#home .home-container .right-side {
+    width: 100%;
+}
+#home .home-container .right-side p {
+    font-size: 1.15rem;
+}
+#navbar ul li a {
+    display: inline;
+}
+.container-footer {
+    display: block;
+}
+.container-item2 {
+    display:flex;
+    flex-direction: column;
+}
+.margin-left-ul {
+    margin-left: 0.5rem;
+}
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+}
+.footer-icons li a {
+    padding: 0.5rem;
+    margin-left: 0.75rem;
+    margin-top: 1rem;
+}

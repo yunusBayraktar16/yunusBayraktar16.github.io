@@ -1,0 +1,6 @@
+.items {
+    flex-wrap: wrap;
+}
+.right-side {
+    margin-left: 1.5rem;
+}

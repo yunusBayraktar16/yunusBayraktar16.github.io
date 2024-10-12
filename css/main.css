@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html 
+{
+    font-family: "poppins" , sans-serif;
+    scroll-behavior: smooth;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+/*Navbar Section*/
+#navbar {
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 0.75rem;
+}
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a {
+    padding:  0.5rem;
+    border-radius: 3px;
+    display: inline-block;
+    padding-top: 1.25rem;
+}
+#navbar ul li a:hover {
+    background: #336ea2;
+}
+
+/*Home section*/
+#home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:2rem;
+    border-bottom: 1px solid grey;
+}
+#home .home-container {
+    display: flex;
+}
+#home .home-container .left-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#home .home-container .right-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#home .home-container .right-side p {
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 1.75rem;
+    margin-top: 2rem;
+    font-style:italic;
+}
+.desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desc span {
+    font-size: 1.75rem;
+    display: inline-block;
+    margin-left: 0.75rem;
+    margin-top: 0.85rem ;
+}
+
+.desc span a:hover {
+    color: #336ea2;
+}
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+#home .left-side h2 {
+    letter-spacing: 1px;
+    margin: 0.75rem 0;
+}
+#home .left-side p {
+    letter-spacing: 1px;
+    opacity: 0.6;
+    font-size: 1.25rem;
+    font-style: italic;
+}
+/* Training */
+#training {
+    color: #fff;
+    padding: 1rem;
+}
+#training .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#training .items .item {
+   width: 33%;
+   text-align: center;
+   padding: 0.5rem;
+}
+#training .items .item:hover {
+    color: #a7a7a7;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+/* Courses */
+
+#courses {
+    color: #333;
+    padding: 1rem;
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.courses .course {
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.courses .course .course-image {
+    margin-right: 1rem;
+   width: 300px;
+   height: 170px;
+   position: relative;
+}
+.courses .course .course-image  img {
+    border-radius: 5px;
+    width: 100%;
+    max-height: 170px;
+}
+.courses .course .course-image span {
+    color: #fff;
+    position: absolute;
+    left:  10px;
+    top: 20px;
+    background: green;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+.courses .course .course-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.courses .course .course-info .title {
+   
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+.courses .course .course-info .description {
+    
+    opacity: 0.7;
+    letter-spacing: 1.2px;
+}
+.courses .course .course-info .instructor {
+    font-size: 0.8rem;
+    font-family: 'Courier New', Courier, monospace;
+    color: #629e2a;
+    
+}
+.courses .course .course-info .rating {
+    font-size: 0.8rem;
+   
+    opacity: 0.7;
+}
+
+
+
+
+
+
+#english {
+    background: #a7a7a7;
+}
+
+
+
+
+
+
+
+
+
+#contact {
+    color: #fff;
+    padding: 1rem;
+}
+#contact .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact .contact-form ul {
+    list-style-type: none;
+    display: flex;
+    align-self: center;
+    margin-top: 1rem;
+}
+#contact .contact-form ul li a {
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+#contact .contact-form ul li a:hover {
+    opacity: 0.7;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.container-footer ul {
+    list-style-type:circle;
+    letter-spacing: 1px;
+}
+.container-footer ul li {
+    color: #FFFFFF;
+    font-style: italic;
+}
+.container-footer .container-item1 h4 {
+    text-align: center;
+    margin: 0.7rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.container-footer .container-item2 {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.container-footer .container-item2  .margin-right-ul {
+    margin-right: 6rem;
+}
+.container-footer .container-item2  .margin-left-ul {
+    margin-left: 6rem;
+}
+.footer-icons {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none !important;
+    font-size: 1.5rem;
+    
+}
+.footer-icons li a:hover {
+    color: beige;
+}
+.container-item1 ul {
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.margin-right-ul {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
